@@ -1,5 +1,5 @@
 const express = require("express");
-require('dotenv').config();
+require("dotenv").config();
 const connectDB = require("./config/database");
 const app = express();
 const PORT = process.env.PORT || 7777;
@@ -8,7 +8,9 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin:
+      "https://devtinder-frontend.vercel.app" ||
+      "https://devtinder-frontend-krishnapandey0206-gmailcoms-projects.vercel.app",
     credentials: true,
   })
 );
