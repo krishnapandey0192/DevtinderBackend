@@ -11,7 +11,7 @@
     "nodejs",
     "javascript"
   ],
-  "author": "Akshay Saini",
+  "author": "Krishna Pandey",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
