@@ -8,9 +8,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin:
-      "https://devtinder-frontend.vercel.app" ||
-      "https://devtinder-frontend-krishnapandey0206-gmailcoms-projects.vercel.app",
+    origin: "https://devtinder-frontend.vercel.app",
     credentials: true,
   })
 );
